@@ -3,7 +3,7 @@ from categories import choose_a_store
 
 def main():
     """Основная функция (точка входа)."""
-    print('1 - Ракетлон |', '2 - OZON |', '3 - Спортмастер')
+    print('1 - Racketlon |', '2 - OZON |', '3 - Sportmaster')
     choose_a_store()
 
 
@@ -13,4 +13,4 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
         print()
         print()
-        print(f'Вы завершили выполнение программы!')
+        print(f'You have completed the execution of the program!')

@@ -40,7 +40,7 @@ def get_rackets_third_size_racketlon(url: str, brand: str) -> None:
     print_info_rackets(brand)
 
     for name, link, price in elements:
-        print('Название ракетки: ', name)
-        print('Ссылка: ', link)
-        print('Цена: ', price, 'руб.')
+        print('The name of the racket: ', name)
+        print('Link: ', link)
+        print('Price: ', price, 'rub.')
         print()
